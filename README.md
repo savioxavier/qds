@@ -7,7 +7,7 @@
 Install via pip:
 
 ```bash
-pip install qds
+pip install qds-run
 ```
 
 ## Overview

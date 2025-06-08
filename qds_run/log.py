@@ -3,7 +3,7 @@ import traceback
 
 from rich.console import Console
 
-from qds.symbols import BAR_CHAR
+from .symbols import BAR_CHAR
 
 console = Console()
 rprint = console.print

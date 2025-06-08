@@ -10,10 +10,10 @@ from InquirerPy import inquirer
 from pathlib import Path
 from pyboxen import boxen
 
-from qds.constants import QDS_DIR, QDS_INITIAL_CONTENTS, logger, qds_config
-from qds.log import formatted_print, rprint
-from qds.runner import magic
-from qds.symbols import DOT_CHAR, RIGHT_CHEVRON
+from .constants import QDS_DIR, QDS_INITIAL_CONTENTS, logger, qds_config
+from .log import formatted_print, rprint
+from .runner import magic
+from .symbols import DOT_CHAR, RIGHT_CHEVRON
 
 QdsUnknown = NewType("QdsUnknown", Any)
 

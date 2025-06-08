@@ -1,7 +1,7 @@
 [project]
-name = "qds"
-version = "0.1.0"
-description = "Quick dirty scripts"
+name = "qds-run"
+version = "0.1.1"
+description = "Quick Dirty Scripts"
 authors = [{ name = "Savio Xavier", email = "savioxavier112@gmail.com" }]
 readme = "README.md"
 license = "MIT"
@@ -19,7 +19,7 @@ dependencies = [
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.poetry_bumpversion.file."python_observer/__init__.py"]
+[tool.poetry_bumpversion.file."qds_run/__init__.py"]
 
 [tool.poetry.scripts]
-qds = "qds.cli:main"
+qds = "qds_run.cli:main"

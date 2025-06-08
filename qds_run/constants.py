@@ -1,7 +1,7 @@
 from pathlib import Path
 
-from qds.config import QdsConfig
-from qds.log import QdsLogger
+from .config import QdsConfig
+from .log import QdsLogger
 
 HOMEDIR = Path.home()
 
@@ -10,7 +10,8 @@ QDS_DIR = HOMEDIR / ".qds"
 QDS_CONFIG_FILE = QDS_DIR / "qds.toml"
 
 QDS_INITIAL_CONTENTS = """
-from qds import qds
+from qds_run import qds
+
 
 @qds(
     args=[("text", str, "Sample text to be provided")],
