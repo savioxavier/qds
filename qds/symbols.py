@@ -1,0 +1,3 @@
+DOT_CHAR = "•"
+RIGHT_CHEVRON = "❯"
+BAR_CHAR = "┃"

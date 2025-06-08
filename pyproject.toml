@@ -1,0 +1,24 @@
+[project]
+name = "qds"
+version = "0.1.0"
+description = "Quick dirty scripts"
+authors = [{ name = "Savio Xavier", email = "savioxavier112@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+
+dependencies = [
+    "pyboxen (>=1.3.0,<2.0.0)",
+    "inquirerpy (>=0.3.4,<0.4.0)",
+    "cyclopts (>=3.17.0,<4.0.0)",
+    "rich (>=14.0.0,<15.0.0)",
+    "tomlkit (>=0.13.3,<0.14.0)",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry_bumpversion.file."python_observer/__init__.py"]
+
+[tool.poetry.scripts]
+qds = "qds.cli:main"
