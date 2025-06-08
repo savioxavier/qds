@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Quick dirty scripts"
 authors = [{ name = "Savio Xavier", email = "savioxavier112@gmail.com" }]
 readme = "README.md"
+license = "MIT"
 requires-python = ">=3.10,<4.0"
 
 dependencies = [
